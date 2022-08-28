@@ -62,12 +62,12 @@ function Navbar() {
             <div className='hidden lg:flex flex-col fixed left-0 top-[35%] '>
                 <ul >
                     <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 font-bold'>
-                        <a href="https://www.linkedin.com/in/sreeshil-ck/" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="https://www.linkedin.com/in/sreeshil-ck/" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-gray-300'>
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 font-bold'>
-                        <a href="https://github.com/sreeshilck/" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="https://github.com/sreeshilck/" target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-gray-300'>
                             Github <FaGithub size={30} />
                         </a>
                     </li>

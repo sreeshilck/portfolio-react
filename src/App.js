@@ -11,13 +11,13 @@ import Skills from './components/Skills';
 function App() {
   return (
     <>
-     <Navbar />
-     <Home/>
-     <About/>
-     <Skills/>
-     <Projects/>
-     <Contact/>
-    </> 
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   );
 }
 

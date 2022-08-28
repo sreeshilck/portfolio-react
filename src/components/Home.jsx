@@ -3,18 +3,23 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { CgFileDocument } from 'react-icons/cg'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import bgimg from '../assets/img/bgimg.jpg'
 import { Link } from 'react-scroll'
+import Particle from './Particle'
+import bgimg from '../assets/img/bgimg.jpg'
+
 
 
 function Home() {
     return (
-        <div className=' w-full h-fit md:h-screen pt-12 md:pt-0 flex justify-center items-center' id='home' name='home'
-            style={{ backgroundImage: `url(${bgimg})` }}
-        >
 
+
+        <div className='w-full h-fit md:h-screen pt-12 md:pt-0 flex justify-center items-center bg-black ' id='home' name='home'
+        // style={{ backgroundImage: `url(${bgimg})` }}
+        >
+            <Particle />
             {/* hero section */}
-            <div className='max-w-[1000px] h-fit mx-auto px-8 flex flex-col md:justify-center pt-5  md:pt-0 md:mt-0   bg-blue' >
+            <div className='max-w-[1000px] h-fit mx-auto px-8 flex flex-col md:justify-center pt-5  md:pt-0 md:mt-0 absolute' >
+
                 <div className='mt-12 pt-12 md:pt-0 md:mt-0'></div>
                 <p className='text-white'>Hi, my name is</p>
                 <h1 className='md:text-6xl text-4xl font-bold text-white'>Sreeshil C K</h1>
@@ -59,8 +64,11 @@ function Home() {
                         </li>
                     </ul>
                 </div>
+                
             </div>
+           {/* <Particle /> */}
         </div>
+
     )
 }
 

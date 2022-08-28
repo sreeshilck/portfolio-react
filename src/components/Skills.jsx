@@ -16,7 +16,7 @@ import Tailwind from '../assets/img/tailwind.png'
 
 function Skills() {
     return (
-        <div className='bg-[#040c16] w-full h-full pt-12 pb-10' id='skills' name='skills'>
+        <div className='bg-[#040c16] w-full h-full pt-12 pb-10 ' id='skills' name='skills'>
             <div className='w-full h-full max-w-[1000px] mx-auto p-4 flex flex-col justify-center  pt-12 mt-12'>
                 <div className=''>
                     <p className='text-white font-bold text-4xl border-b-4 inline border-blue-400'>Skills</p>
