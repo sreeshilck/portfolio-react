@@ -77,9 +77,9 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 font-bold'>
-                        <a href="" className='flex justify-between items-center w-full text-gray-300'>
+                        <button className='flex justify-between items-center w-full text-gray-300'>
                             Resume <CgFileDocument size={30} />
-                        </a>
+                        </button>
                     </li>
                 </ul>
             </div>

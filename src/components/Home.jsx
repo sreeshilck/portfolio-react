@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 import Particle from './Particle'
-import bgimg from '../assets/img/bgimg.jpg'
+
 
 
 
@@ -48,17 +48,17 @@ function Home() {
                 <div className='flex mt-8 lg:hidden  items-center'>
                     <ul className='flex '>
                         <li className='w-[20px] h-[60px]   duration-500 text-center'>
-                            <a href="" className='text-white'>
+                            <a href="https://www.linkedin.com/in/sreeshil-ck/"  target="_blank" rel="noreferrer" className='text-white'>
                                 <FaLinkedin size={30} />
                             </a>
                         </li>
                         <li className='w-[20px] h-[60px]   duration-500 mx-4'>
-                            <a href="" className='text-white'>
+                            <a href="https://github.com/sreeshilck/" target="_blank" rel="noreferrer" className='text-white'>
                                 <FaGithub size={30} />
                             </a>
                         </li>
                         <li className='w-[20px] h-[60px]  duration-500'>
-                            <a href="" className='text-white'>
+                            <a href="mailto:sreeshilck777@gmail.com" className='text-white'>
                                 <HiOutlineMail size={32} />
                             </a>
                         </li>
