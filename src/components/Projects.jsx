@@ -34,7 +34,7 @@ function Projects() {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div>``
                     {/* card2 */}
                     <div style={{ backgroundImage: `url(${alexacars})` }}
                         className='shadow-lg hover:shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -45,9 +45,9 @@ function Projects() {
                                 Alexa-Cars
                             </span>
                             <div className='pt-10 text-center'>
-                                {/* <a href="">
+                                <a href="https://alexacars.ml/"  target="_blank" rel="noreferrer">
                                     <button className='bg-blue-500 px-4 py-3 m-2 rounded-lg text-center font-bold text-lg text-white'>View</button>
-                                </a> */}
+                                </a>
                                 <a href="https://github.com/sreeshilck/Alexa-Cars-rental-car-application/" target="_blank" rel="noreferrer">
                                     <button className='bg-blue-500 px-4 py-3 m-2 rounded-lg text-center font-bold text-lg text-white'>Code</button>
                                 </a>
@@ -64,9 +64,9 @@ function Projects() {
                                 Portfolio
                             </span>
                             <div className='pt-10 text-center'>
-                                {/* <a href="" target="_blank" rel="noreferrer">
+                                <a href="https://sreeshilck.netlify.app/" target="_blank" rel="noreferrer">
                                     <button className='bg-blue-500 px-4 py-3 m-2 rounded-lg text-center font-bold text-lg text-white'>View</button>
-                                </a> */}
+                                </a>
                                 <a href="https://github.com/sreeshilck/portfolio-react/" target="_blank" rel="noreferrer">
                                     <button className='bg-blue-500 px-4 py-3 m-2 rounded-lg text-center font-bold text-lg text-white'>Code</button>
                                 </a>

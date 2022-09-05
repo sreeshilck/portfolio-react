@@ -36,9 +36,9 @@ function Home() {
                             <HiArrowNarrowRight className='ml-3 text-white' />
                         </span>
                     </Link>
-                    <a href='/Sreeshil_CK_Resume.pdf' download={true} className='lg:hidden group border-2 py-3 px-6 my-2  flex items-center justify-center text-white w-fit'>
+                    <a href='/Sreeshil-CK-Resume.pdf' download={true} className='lg:hidden group border-2 py-3 px-6 my-2  flex items-center justify-center text-white w-fit'>
                         Resume
-                        <span className='group-hover:rotate-90 duration-500'>
+                        <span className=''>
                             <CgFileDocument size={20} className='ml-3 text-white' />
                         </span>
                     </a>
@@ -48,7 +48,7 @@ function Home() {
                 <div className='flex mt-8 lg:hidden  items-center'>
                     <ul className='flex '>
                         <li className='w-[20px] h-[60px]   duration-500 text-center'>
-                            <a href="https://www.linkedin.com/in/sreeshil-ck/"  target="_blank" rel="noreferrer" className='text-white'>
+                            <a href="https://www.linkedin.com/in/sreeshil-ck/" target="_blank" rel="noreferrer" className='text-white'>
                                 <FaLinkedin size={30} />
                             </a>
                         </li>
@@ -64,9 +64,9 @@ function Home() {
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
-           {/* <Particle /> */}
+            {/* <Particle /> */}
         </div>
 
     )
