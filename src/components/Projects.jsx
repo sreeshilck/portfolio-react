@@ -34,7 +34,7 @@ function Projects() {
                                 </a>
                             </div>
                         </div>
-                    </div>``
+                    </div>
                     {/* card2 */}
                     <div style={{ backgroundImage: `url(${alexacars})` }}
                         className='shadow-lg hover:shadow-slate-800 group container rounded-md flex justify-center items-center mx-auto content-div'>
