@@ -14,18 +14,18 @@ function Home() {
 
 
         <div className='w-full h-fit md:h-screen pt-12 md:pt-0 flex justify-center items-center bg-black ' id='home' name='home'
-        // style={{ backgroundImage: `url(${bgimg})` }}
+      
         >
             <Particle />
             {/* hero section */}
             <div className='max-w-[1000px] h-fit mx-auto px-8 flex flex-col md:justify-center pt-5  md:pt-0 md:mt-0 absolute' >
 
                 <div className='mt-12 pt-12 md:pt-0 md:mt-0'></div>
-                <p className='text-white'>Hi, my name is</p>
+                <p className='text-white'>Hi, I'm</p>
                 <h1 className='md:text-6xl text-4xl font-bold text-white'>Sreeshil C K</h1>
-                <h2 className='md:text-4xl text-2xl font-bold text-gray-400'>I'am a Full Stack Developer</h2>
+                <h2 className='md:text-4xl text-2xl font-bold text-gray-400'>Full Stack Developer</h2>
                 <p className='max-w-[700px] py-4 text-white'>
-                    Passionate Sellf-taught Full Stack web developer specialising on MERN Stack with application development experience and well-versed in a variety of front-end and back-end technologies.Possess a solid commitment to the team environment and enjoy working as a team member and independently.
+                    Passionate Self-taught Full Stack web developer specialising on MERN Stack with application development experience and well-versed in a variety of front-end and back-end technologies.Possess a solid commitment to the team environment and enjoy working as a team member and independently.
                 </p>
 
                 {/* button  */}
